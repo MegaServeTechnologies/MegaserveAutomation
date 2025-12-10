@@ -10,7 +10,7 @@ st.title("Algo UI Orderbook Analysis")
 st.markdown("Upload an Algo UI Orderbook Excel file to analyze trades for specified user IDs.")
 
 # User IDs
-user_ids = ["7RA1RM61", "7RA1IL10", "7RA110119", "7RA110084","7RIK2014"]
+user_ids = ["7RA1RM61", "7RA1IL10", "7RA110119", "7RA110084", "7RIK2014", "B7RA1RL35", "7RA1LL11", "7RIK2005", "R7RA1322", "7RA1SP74", "7RA1KP76", "7RIK2021"]
 
 # File uploader
 uploaded_file = st.file_uploader("Upload Orderbook Excel File", type=["xlsx"])
@@ -129,3 +129,4 @@ if uploaded_file is not None:
 else:
 
     st.info("Please upload an Excel file to begin analysis.")
+
