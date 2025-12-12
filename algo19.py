@@ -364,8 +364,8 @@ def run():
 
    # ===================== TAB 1: PNL CALCULATION =====================
     with tab1:
-        st.markdown('<h1 class="header-text">Ultimate Financial PNL Dashboard</h1>', unsafe_allow_html=True)
-        st.markdown('<p class="subheader-text">Analyze your portfolio with real-time insights, interactive charts, and comprehensive data exports for smarter trading decisions.</p>', unsafe_allow_html=True)
+        st.markdown('<h1 class="header-text">A19 Realized & Settlement Calculator</h1>', unsafe_allow_html=True)
+        st.markdown('<p class="subheader-text">Calculate the Realized P&L & Settlement Value for every index of A19</p>', unsafe_allow_html=True)
        
         st.markdown('<h2 class="text-lg font-bold text-gray-800 dark:text-gray-200 mb-4">Upload Data</h2>', unsafe_allow_html=True)
         with st.container():
@@ -625,3 +625,4 @@ def run():
 if __name__ == "__main__":
     st.write(f"DEBUG: Starting app at {datetime.now()}")
     run()
+
