@@ -330,7 +330,7 @@ def run():
             with col1:
                 uploaded_usersetting = st.file_uploader(
                     "User Settings CSV", 
-                    type="csv", 
+                    type="xlsx", 
                     help="VS1 USERSETTING( EVE ).csv - Ensure file <1MB for testing. Expected columns: User ID, Broker, Telegram ID(s).",
                     key="usersetting"
                 )
